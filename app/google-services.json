@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "31370262220",
+    "firebase_url": "https://suiteboard.firebaseio.com",
+    "project_id": "suiteboard",
+    "storage_bucket": "suiteboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31370262220:android:dc4c1f48e39fe474",
+        "android_client_info": {
+          "package_name": "hamzus.multicom.suiteboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31370262220-73n1l12oo0goedb3mceun1irg69lt6dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamzus.multicom.suiteboard",
+            "certificate_hash": "387a40087353666bc67cc6b44e7686c43cb63b16"
+          }
+        },
+        {
+          "client_id": "31370262220-jh6gqf6eut7hgejdgt0pcev36hot5feh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxiWboTxevKG9v75gmmArdkAMpBDym9Rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31370262220-jh6gqf6eut7hgejdgt0pcev36hot5feh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

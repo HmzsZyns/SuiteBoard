@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckInFragment"
+    android:orientation="vertical"
+    android:background="@drawable/grad_blue"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/check_in_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/check_in_map_view"
+            android:name="com.google.android.gms.maps.MapView"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4" />
+
+        <com.gigamole.library.PulseView
+            android:id="@+id/check_in_pulse_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            app:pv_alpha="70"
+            app:pv_color="#FFF"
+            app:pv_icon="@drawable/ic_fingerprint_black_24dp"
+            app:pv_icon_height="100dp"
+            app:pv_icon_width="100dp"
+            app:pv_interpolator="@android:anim/linear_interpolator"
+            app:pv_measure="height"
+            app:pv_spawn_period="500" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
