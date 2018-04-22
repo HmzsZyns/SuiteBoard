@@ -74,6 +74,7 @@ public class CheckInFragment extends Fragment implements OnMapReadyCallback {
         pulseView = (PulseView) view.findViewById(R.id.check_in_pulse_view);
         pulseView.startPulse();
 
+
         pulseView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -214,6 +215,7 @@ public class CheckInFragment extends Fragment implements OnMapReadyCallback {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         Log.d(TAG, "onRequestPermissionsResult: called.");
         mLocationPermissionsGranted = false;
+        
 
         switch (requestCode) {
             case LOCATION_PERMISSION_REQUEST_CODE: {
